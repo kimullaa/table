@@ -2,13 +2,13 @@
   <div>
     <ul>
       <li>
-        <router-link :to="{path: 'hello'}">hello</router-link>
+        <router-link :to="{path: '/table'}">table</router-link>
       </li>
       <li>
-        <router-link :to="{path: 'hello', query: {name: 'xxx1'}}">hello?name=xxx1</router-link>
+        <router-link :to="{path: '/table', query: {name: 'xxx1'}}">table?name=xxx1</router-link>
       </li>
       <li>
-        <router-link :to="{path: 'hello', query: {name: 'xxx5'}}">hello?name=xxx5</router-link>
+        <router-link :to="{path: '/table', query: {name: 'xxx5'}}">table?name=xxx5</router-link>
       </li>
     </ul>
     <div class="col-sm-10">

@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Table',
   props: {
     name: String
   },
