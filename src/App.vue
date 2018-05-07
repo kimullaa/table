@@ -8,7 +8,9 @@
         <router-link :to="{path: 'hello', query: {name: 'xxx5'}}">hello?name=xxx5</router-link>
       </li>
     </ul>
+    <div class="col-sm-10">
     <router-view></router-view>
+  </div>
   </div>
 </template>
 
