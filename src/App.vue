@@ -2,6 +2,9 @@
   <div>
     <ul>
       <li>
+        <router-link :to="{path: 'hello'}">hello</router-link>
+      </li>
+      <li>
         <router-link :to="{path: 'hello', query: {name: 'xxx1'}}">hello?name=xxx1</router-link>
       </li>
       <li>

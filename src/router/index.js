@@ -12,7 +12,7 @@ export default new Router({
       name: 'HelloWorld',
       component: HelloWorld,
       props: (route) => ({
-        name: route.query.name
+        name: route.query.name ? route.query.name : ''
       })
     },
     {
